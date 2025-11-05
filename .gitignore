@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Build / Dist
+build/
+dist/
+*.spec
+
+# Logs
+logs/
+*.log
+
+# Generated images/diagrams
+*.png
+!docs/assets/*.png
+
+# Matplotlib cache
+.matplotlib/
+
+# Local config
+*.local.json
+
+# PyInstaller output
+*.exe
+
+# Coverage / Test
+.coverage
+htmlcov/
+pytest_cache/
+
+
