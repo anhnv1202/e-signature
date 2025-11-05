@@ -29,9 +29,6 @@ dist/
 logs/
 *.log
 
-# Generated images/diagrams
-*.png
-!docs/assets/*.png
 
 # Matplotlib cache
 .matplotlib/
@@ -41,6 +38,7 @@ logs/
 
 # PyInstaller output
 *.exe
+!RSA_Digital_Signature_With_Icon.exe
 
 # Coverage / Test
 .coverage

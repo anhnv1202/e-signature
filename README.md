@@ -109,6 +109,18 @@ This is an educational application implementing RSA digital signature system wit
 - Chạy bằng menu tiện lợi: `python run.py`
 - Hoặc chạy trực tiếp ứng dụng: `python main.py`
 
+### Build file thực thi (Windows)
+
+Tạo file .exe bằng PyInstaller (đóng gói một file, giao diện cửa sổ, kèm icon):
+
+```bash
+python -m PyInstaller --clean --noconfirm --onefile --windowed \
+  --icon="icon.png" --add-data "icon.png;." \
+  main.py
+```
+
+Sau khi hoàn tất, file thực thi nằm tại `dist/`.
+
 ## Hướng Dẫn Sử Dụng - User Guide
 
 ### 1. Tạo Khóa RSA - RSA Key Generation

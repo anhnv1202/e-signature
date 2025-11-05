@@ -27,8 +27,18 @@ def main():
     app.setOrganizationName("Cryptography Lab")
 
     # Thiết lập icon cho ứng dụng - Set application icon
-    if os.path.exists("icon.png"):
-        app.setWindowIcon(QIcon("icon.png"))
+    # Xử lý cả trường hợp chạy từ source và từ file build
+    icon_path = None
+    if hasattr(sys, '_MEIPASS'):
+        # Đang chạy từ PyInstaller build
+        icon_path = os.path.join(sys._MEIPASS, 'icon.png')
+    else:
+        # Đang chạy từ source code
+        if os.path.exists("icon.png"):
+            icon_path = "icon.png"
+
+    if icon_path and os.path.exists(icon_path):
+        app.setWindowIcon(QIcon(icon_path))
 
     # Thiết lập ngôn ngữ tiếng Việt - Set Vietnamese language
     translator = QTranslator()
