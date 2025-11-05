@@ -104,10 +104,10 @@ This is an educational application implementing RSA digital signature system wit
    python main_simple.py
    ```
 
-#### **Windows: Chạy trực tiếp - Windows: Direct run**
+#### **Chạy nhanh**
 
-- Double-click `start.bat` - Nháy đúp vào file `start.bat`
-- Hoặc chạy `python run.py` - Or run `python run.py`
+- Chạy bằng menu tiện lợi: `python run.py`
+- Hoặc chạy trực tiếp ứng dụng: `python main.py`
 
 ## Hướng Dẫn Sử Dụng - User Guide
 
@@ -162,8 +162,8 @@ e-signature/
 ├── requirements.txt            # Danh sách thư viện cần thiết - Required libraries
 ├── Description.md              # Yêu cầu dự án - Project requirements
 ├── README_VI.md               # Tài liệu tiếng Việt - Vietnamese documentation
-├── simple_test.py             # Kiểm tra đơn giản - Simple test
-├── debug_test.py              # Kiểm tra gỡ lỗi - Debug test
+├── docs/                      # Tài liệu - Documentation
+│   └── phan_tich_he_thong.md  # Báo cáo phân tích code + ảnh minh họa
 ├── crypto/                    # Mô-đun mã hóa - Cryptography module
 │   ├── __init__.py
 │   └── rsa_engine.py          # Động cơ RSA - RSA engine
