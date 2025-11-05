@@ -330,4 +330,4 @@ Mọi đóng góp đều được chào đón:
 
 **Phát triển cho mục đích giáo dục - Developed for educational purposes**
 
-*Last updated: December 2025*
+*Last updated: November 2025*
